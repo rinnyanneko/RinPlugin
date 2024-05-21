@@ -7,8 +7,8 @@ author: rinnyanneko
 description: Rin's Plugin
 website: https://rinnyanneko.github.io/
 commands:
-    rin:
-        description: Rin's Command
+    about:
+        description: About Plugin
         usage: /<command>
-        permission: rin.command
-        aliases: [r]
+        permission:
+        aliases: [a]
