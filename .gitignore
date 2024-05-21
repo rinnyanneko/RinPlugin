@@ -1,6 +1,8 @@
 # User-specific stuff
 .idea/
 
+spigot-1.20.4.jar
+
 *.iml
 *.ipr
 *.iws
