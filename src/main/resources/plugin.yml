@@ -9,6 +9,6 @@ website: https://rinnyanneko.github.io/
 commands:
     rin:
         description: Rin's Command
-        usage: /<command>
-        permission: rin.command
+        usage: /<command> [args]
+        permission:
         aliases: [r]

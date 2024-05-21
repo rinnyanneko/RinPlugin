@@ -12,7 +12,7 @@ public class About implements CommandExecutor {
                 sender.sendMessage(ChatColor.AQUA + "[About]");
                 sender.sendMessage(ChatColor.AQUA + "Rin's Plugin");
                 sender.sendMessage(ChatColor.AQUA + "This server is running RinPlugin v1.0.0");
-                sender.sendMessage(ChatColor.AQUA + "Developed by rinnyanneko");
+                sender.sendMessage(ChatColor.AQUA + "Developed by Rinnyanneko");
                 return true;
             }
         return false;

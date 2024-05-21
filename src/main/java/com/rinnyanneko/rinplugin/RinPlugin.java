@@ -10,7 +10,7 @@ public final class RinPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         this.getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
-        this.getCommand("about");//.setExecutor(new About());
+        this.getCommand("about").setExecutor(new About());
     }
 
     @Override
