@@ -1,0 +1,8 @@
+name: RinPlugin
+version: '${project.version}'
+main: com.rinnyanneko.rinplugin.RinPlugin
+api-version: '1.20'
+prefix: rp
+authors: [rinnyanneko]
+description: Rin's Plugin
+website: https://rinnyanneko.github.io/
