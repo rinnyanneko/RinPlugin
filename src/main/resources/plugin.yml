@@ -12,3 +12,8 @@ commands:
         usage: /<command> [args]
         permission:
         aliases: [r]
+    about:
+        description: About Plugin
+        usage: /<command>
+        permission:
+        aliases: [a]
