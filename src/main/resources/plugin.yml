@@ -12,3 +12,8 @@ commands:
         usage: /<command>
         permission:
         aliases: [a]
+    rinplugin:
+        description: Plugin Command
+        usage: /<command>
+        permission:
+        aliases: [rp]

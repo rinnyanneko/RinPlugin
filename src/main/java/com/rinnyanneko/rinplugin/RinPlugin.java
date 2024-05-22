@@ -11,6 +11,7 @@ public final class RinPlugin extends JavaPlugin {
         // Plugin startup logic
         this.getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
         this.getCommand("about").setExecutor(new About());
+        this.getCommand("rinplugin").setExecutor(new RinPlugin());
     }
 
     @Override
