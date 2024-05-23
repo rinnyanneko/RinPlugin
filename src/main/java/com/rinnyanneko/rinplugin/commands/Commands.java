@@ -8,8 +8,7 @@ import org.bukkit.command.CommandSender;
 public class Commands implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("rinplugin")|| command.getName().equalsIgnoreCase("rp")){
-            try {
+        try {
                 if (args[0].equalsIgnoreCase("about")) {
                     sender.sendMessage(ChatColor.AQUA + "[About]");
                     sender.sendMessage(ChatColor.AQUA + "Rin's Plugin");
@@ -17,7 +16,7 @@ public class Commands implements CommandExecutor {
                     sender.sendMessage(ChatColor.AQUA + "Developed by Rinnyanneko");
                     return true;
                 }
-                if (command.getName().equalsIgnoreCase("help")) {
+                if (args[0].equalsIgnoreCase("help")) {
                     sender.sendMessage(ChatColor.AQUA + "[Help]");
                     sender.sendMessage(ChatColor.AQUA + "Commands:");
                     sender.sendMessage(ChatColor.AQUA + "/rinplugin about - Displays information about the plugin");
@@ -30,6 +29,4 @@ public class Commands implements CommandExecutor {
             }
             return false;
         }
-        return false;
-    }
 }

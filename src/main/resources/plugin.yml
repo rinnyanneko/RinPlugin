@@ -9,6 +9,6 @@ website: https://rinnyanneko.github.io/
 commands:
     rinplugin:
         description: Plugin Command
-        usage: /<command> [about]
+        usage: /<command> [about | help]
         permission:
         aliases: [rp]

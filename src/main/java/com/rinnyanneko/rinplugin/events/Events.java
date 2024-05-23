@@ -8,10 +8,10 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class Events implements org.bukkit.event.Listener{
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.setJoinMessage(ChatColor.AQUA + event.getPlayer().getName() + "!");
+        event.setJoinMessage(ChatColor.AQUA + "Welcome " + event.getPlayer().getName() + "!");
     }
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent event) {
-        event.setQuitMessage(ChatColor.AQUA + event.getPlayer().getName() + "!");
+        event.setQuitMessage(ChatColor.AQUA + "Bye bye " + event.getPlayer().getName() + "!");
     }
 }
