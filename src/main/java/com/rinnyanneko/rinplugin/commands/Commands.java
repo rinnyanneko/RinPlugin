@@ -24,6 +24,11 @@ public class Commands implements CommandExecutor {
                     sender.sendMessage(ChatColor.AQUA + "/rinplugin help - Displays this message");
                     return true;
                 }
+                if (command.getName().equalsIgnoreCase("fly")) {
+                    sender.sendMessage(ChatColor.AQUA + "You are now flying!");
+                    sender.setAllowFlight(true);
+                    return true;
+                }
             }catch (Exception e){
                 sender.sendMessage(ChatColor.RED + "An error occurred while executing this command.%n" + e.getMessage());
                 return false;
